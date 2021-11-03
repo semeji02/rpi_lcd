@@ -13,18 +13,6 @@ time.sleep(2)
 temp = sensor.temperature
 humidity = sensor.humidity
 
-# while True:
-#     try:
-#         temp = sensor.temperature
-#         humidity = sensor.humidity
-#         time.sleep(1)
-#     except RuntimeError as error:
-#             print(error.args[0])
-#             time.sleep(2.0)
-#             continue
-#     except Exception as error:
-#         sensor.exit()
-#         raise error
 if __name__ == "__main__":
     while True:
         try:
